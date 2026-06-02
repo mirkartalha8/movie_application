@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const LocalStrategy = require("passport-local"); 
 const path = require("path"); // Import the path module 
 // const uri = 
-//   "mongodb+srv://Admin:Qwerty12345@cluster0.prmpnbi.mongodb.net/?appName=Cluster0"; //MongoDB Atlas Link 
+//   "mongodb+srv://Admin:Qwerty12345@cluster0.prmpnbi.mongodb.net/?appName=Cluster0/Movie"; //MongoDB Atlas Link 
  
 //Connect to MongoDB using MongoDB Compass localhost 
 const uri = 'mongodb://127.0.0.1:27017/Movie'; // MongoDB connection URI 
